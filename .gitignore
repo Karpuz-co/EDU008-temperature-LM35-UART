@@ -1,0 +1,31 @@
+####################################################################
+# These are ignored file and folder patterns.                      #
+#                                                                  #
+# Project: STM32CubeIDE                                            #
+# Ceyhun Sezenoglu, 2022-06-28, v1.0                               #
+#                                                                  #
+# Learn more about .gitignore:                                     #
+# https://www.atlassian.com/git/tutorials/saving-changes/gitignore #
+####################################################################
+
+# Folders
+.settings/
+/Debug/
+
+# Project stuff
+.mxproject
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+*.bin
+*.list
+*.map
+
+# System Files
+.DS_Store
+Thumbs.db
